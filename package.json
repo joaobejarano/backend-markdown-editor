@@ -7,7 +7,7 @@
     "start": "node index.js",
     "dev": "nodemon index.js",
     "test": "jest",
-    "build": "echo 'No build step necessary for backend'"
+    "build": "react-scripts build"
   },
   "jest": {
     "testEnvironment": "node"
@@ -32,5 +32,8 @@
     "nodemon": "^3.1.4",
     "sequelize-cli": "^6.6.2",
     "supertest": "^7.0.0"
+  },
+  "engines": {
+    "node": ">=14.x"
   }
 }
